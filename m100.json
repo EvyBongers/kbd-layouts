@@ -542,11 +542,7 @@
       {"code": 81, "label": {"base": {"full": "Down Arrow", "1u": "↓"}}},
       {"code": 82, "label": {"base": {"full": "Up Arrow", "1u": "↑"}}},
       {"code": 79, "label": {"base": {"full": "Right Arrow", "1u": "→"}}},
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
+      {"code": 49, "label": {"base": "\\", "shifted": "|"}},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -625,16 +621,20 @@
         "categories": ["consumer"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {"code": 49, "label": {"base": "\\", "shifted": "|"}},
-      {
         "code": 2097,
         "label": {"hint": null, "base": "|"},
         "categories": ["with-modifiers", "shift"],
         "baseCode": 49
+      },
+      {
+        "code": 65535,
+        "label": {"base": {"full": "Transparent", "1u": " "}},
+        "categories": ["blanks"]
+      },
+      {
+        "code": 65535,
+        "label": {"base": {"full": "Transparent", "1u": " "}},
+        "categories": ["blanks"]
       }
     ],
     [
