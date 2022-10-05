@@ -528,9 +528,11 @@
         "categories": ["mousekeys"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 737,
+        "label": {"hint": {"full": "Alt+", "1u": "A+"}, "base": "Shift"},
+        "location": "left",
+        "categories": ["with-modifiers", "alt"],
+        "baseCode": 225
       },
       {
         "code": 226,
