@@ -427,12 +427,12 @@
       {"code": 66, "label": {"base": "F9"}},
       {"code": 67, "label": {"base": "F10"}},
       {"code": 68, "label": {"base": "F11"}},
-      {"code": 43, "label": {"base": "Tab"}},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
+      {"code": 43, "label": {"base": "Tab"}},
       {
         "code": 20481,
         "label": {"hint": "Mouse", "base": "Up"},
