@@ -400,16 +400,20 @@
       {"code": 62, "label": {"base": "F5"}},
       {"code": 57, "label": {"base": {"full": "Caps Lock", "1u": "CpLK"}}},
       {
-        "code": 2347,
-        "label": {"hint": {"full": "Ctrl+Shift+", "1u": "C+S+"}, "base": "Tab"},
-        "categories": ["with-modifiers", "ctrl", "shift"],
-        "baseCode": 43
+        "code": 2272,
+        "label": {
+          "hint": {"full": "Shift+", "1u": "S+"},
+          "base": {"full": "Control", "1u": "Ctrl"}
+        },
+        "location": "left",
+        "categories": ["with-modifiers", "shift"],
+        "baseCode": 224
       },
       {
-        "code": 299,
-        "label": {"hint": {"full": "Ctrl+", "1u": "C+"}, "base": "Tab"},
-        "categories": ["with-modifiers", "ctrl"],
-        "baseCode": 43
+        "code": 227,
+        "label": {"base": {"full": "Super", "1u": "Sup.", "short": "Su"}},
+        "location": "left",
+        "categories": ["modifier"]
       },
       {
         "code": 18614,
@@ -464,7 +468,12 @@
         },
         "categories": ["mousekeys"]
       },
-      {"code": 76, "label": {"base": {"full": "Delete", "1u": "Del"}}},
+      {
+        "code": 224,
+        "label": {"base": {"full": "Control", "1u": "Ctrl"}},
+        "location": "left",
+        "categories": ["modifier"]
+      },
       {"code": 40, "label": {"base": "Enter"}},
       {
         "code": 18637,
@@ -541,10 +550,11 @@
         "baseCode": 226
       },
       {
-        "code": 226,
-        "label": {"base": "Alt"},
-        "location": "left",
-        "categories": ["modifier"]
+        "code": 17495,
+        "label": {"hint": "MoveTo", "base": "#3"},
+        "target": 3,
+        "rangeStart": 17492,
+        "categories": ["layer", "movetolayer"]
       },
       {"code": 101, "label": {"base": "Menu"}},
       {"code": 80, "label": {"base": {"full": "Left Arrow", "1u": "←"}}},
@@ -591,11 +601,10 @@
         "categories": ["blanks"]
       },
       {
-        "code": 17495,
-        "label": {"hint": "MoveTo", "base": "#3"},
-        "target": 3,
-        "rangeStart": 17492,
-        "categories": ["layer", "movetolayer"]
+        "code": 226,
+        "label": {"base": "Alt"},
+        "location": "left",
+        "categories": ["modifier"]
       },
       {
         "code": 17492,
@@ -2238,8 +2247,8 @@
       15,
       15,
       15,
-      15,
-      15,
+      0,
+      1,
       15,
       15,
       15,
