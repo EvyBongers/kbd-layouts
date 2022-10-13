@@ -435,9 +435,13 @@
         "categories": ["mousekeys"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 18543,
+        "legacyCode": 23663,
+        "label": {
+          "hint": {"full": "Brightness", "1u": "Brght."},
+          "base": {"full": "Up", "1u": "🔆"}
+        },
+        "categories": ["consumer"]
       },
       {
         "code": 20546,
@@ -557,9 +561,13 @@
       {"code": 70, "label": {"base": {"full": "Print Screen", "1u": "PrSc"}}},
       {"code": 73, "label": {"base": {"full": "Insert", "1u": "Ins"}}},
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 18544,
+        "legacyCode": 23664,
+        "label": {
+          "hint": {"full": "Brightness", "1u": "Brght."},
+          "base": {"full": "Down", "1u": "🔅"}
+        },
+        "categories": ["consumer"]
       },
       {
         "code": 20548,
