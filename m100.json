@@ -474,12 +474,13 @@
       {"code": 61, "label": {"base": "F4"}},
       {"code": 62, "label": {"base": "F5"}},
       {"code": 63, "label": {"base": "F6"}},
+      {"code": 73, "label": {"base": {"full": "Insert", "1u": "Ins"}}},
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 6165,
+        "label": {"hint": {"full": "Shift+Super+", "1u": "S+Su+"}, "base": "r"},
+        "categories": ["with-modifiers", "shift", "gui"],
+        "baseCode": 21
       },
-      {"code": 101, "label": {"base": "Menu"}},
       {"code": 64, "label": {"base": "F7"}},
       {"code": 65, "label": {"base": "F8"}},
       {"code": 66, "label": {"base": "F9"}},
@@ -529,17 +530,13 @@
         },
         "categories": ["consumer"]
       },
-      {"code": 73, "label": {"base": {"full": "Insert", "1u": "Ins"}}},
+      {"code": 41, "label": {"base": "Esc"}},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
+      {"code": 101, "label": {"base": "Menu"}},
       {"code": 40, "label": {"base": "Enter"}},
       {
         "code": 65535,
@@ -614,12 +611,13 @@
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
+      {"code": 57, "label": {"base": {"full": "Caps Lock", "1u": "CpLK"}}},
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 4103,
+        "label": {"hint": {"full": "Super+", "1u": "Su+"}, "base": "d"},
+        "categories": ["with-modifiers", "gui"],
+        "baseCode": 7
       },
-      {"code": 70, "label": {"base": {"full": "Print Screen", "1u": "PrSc"}}},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -675,12 +673,7 @@
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {"code": 57, "label": {"base": {"full": "Caps Lock", "1u": "CpLK"}}},
+      {"code": 70, "label": {"base": {"full": "Print Screen", "1u": "PrSc"}}},
       {
         "code": 4136,
         "label": {"hint": {"full": "Super+", "1u": "Su+"}, "base": "Enter"},
