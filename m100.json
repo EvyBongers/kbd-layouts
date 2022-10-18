@@ -474,7 +474,7 @@
       {"code": 61, "label": {"base": "F4"}},
       {"code": 62, "label": {"base": "F5"}},
       {"code": 63, "label": {"base": "F6"}},
-      {"code": 73, "label": {"base": {"full": "Insert", "1u": "Ins"}}},
+      {"code": 70, "label": {"base": {"full": "Print Screen", "1u": "PrSc"}}},
       {
         "code": 6165,
         "label": {"hint": {"full": "Shift+Super+", "1u": "S+Su+"}, "base": "r"},
@@ -654,9 +654,22 @@
         "categories": ["blanks"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 329,
+        "label": {
+          "hint": {"full": "Ctrl+", "1u": "C+"},
+          "base": {"full": "Insert", "1u": "Ins"}
+        },
+        "categories": ["with-modifiers", "ctrl"],
+        "baseCode": 73
+      },
+      {
+        "code": 2121,
+        "label": {
+          "hint": {"full": "Shift+", "1u": "S+"},
+          "base": {"full": "Insert", "1u": "Ins"}
+        },
+        "categories": ["with-modifiers", "shift"],
+        "baseCode": 73
       },
       {
         "code": 65535,
@@ -669,11 +682,11 @@
         "categories": ["blanks"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 225,
+        "label": {"base": "Shift"},
+        "location": "left",
+        "categories": ["modifier"]
       },
-      {"code": 70, "label": {"base": {"full": "Print Screen", "1u": "PrSc"}}},
       {
         "code": 4136,
         "label": {"hint": {"full": "Super+", "1u": "Su+"}, "base": "Enter"},
@@ -691,14 +704,16 @@
         "categories": ["blanks"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 281,
+        "label": {"hint": {"full": "Ctrl+", "1u": "C+"}, "base": "v"},
+        "categories": ["with-modifiers", "ctrl"],
+        "baseCode": 25
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 262,
+        "label": {"hint": {"full": "Ctrl+", "1u": "C+"}, "base": "c"},
+        "categories": ["with-modifiers", "ctrl"],
+        "baseCode": 6
       },
       {
         "code": 65535,
@@ -2303,18 +2318,6 @@
       15,
       1,
       1,
-      15,
-      15,
-      1,
-      1,
-      15,
-      15,
-      1,
-      1,
-      15,
-      15,
-      15,
-      15,
       1,
       1,
       1,
@@ -2323,6 +2326,18 @@
       15,
       1,
       1,
+      15,
+      15,
+      15,
+      15,
+      1,
+      1,
+      1,
+      1,
+      15,
+      15,
+      1,
+      1,
       1,
       1,
       15,
@@ -2335,8 +2350,8 @@
       15,
       1,
       1,
-      15,
-      15,
+      1,
+      1,
       1,
       1,
       15,
