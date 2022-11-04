@@ -46,7 +46,12 @@
       {"code": 9, "label": {"base": "f", "shifted": "F"}},
       {"code": 19, "label": {"base": "p", "shifted": "P", "altgr": "ö"}},
       {"code": 5, "label": {"base": "b", "shifted": "B"}},
-      {"code": 40, "label": {"base": "Enter"}},
+      {
+        "code": 230,
+        "label": {"base": {"full": "AltGr", "1u": "AGr"}},
+        "location": "right",
+        "categories": ["modifier"]
+      },
       {"code": 42, "label": {"base": {"full": "Backspace", "1u": "Bksp"}}},
       {"code": 44, "label": {"base": "Space", "shifted": "Space"}},
       {"code": 40, "label": {"base": "Enter"}},
