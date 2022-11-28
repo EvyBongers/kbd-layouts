@@ -68,11 +68,11 @@
       {"code": 23, "label": {"base": "t", "shifted": "T", "altgr": "þ"}},
       {"code": 10, "label": {"base": "g", "shifted": "G"}},
       {
-        "code": 17497,
-        "label": {"hint": "MoveTo", "base": "#5"},
-        "target": 5,
-        "rangeStart": 17492,
-        "categories": ["layer", "movetolayer"]
+        "code": 17409,
+        "label": {"hint": "LockTo", "base": "#1"},
+        "target": 1,
+        "rangeStart": 17408,
+        "categories": ["layer", "locktolayer"]
       },
       {
         "code": 227,
@@ -186,6 +186,7 @@
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
+      {"code": 84, "label": {"base": "/"}, "location": "numpad"},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -261,6 +262,20 @@
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
+      {"code": 85, "label": {"base": "*"}, "location": "numpad"},
+      {
+        "code": 65535,
+        "label": {"base": {"full": "Transparent", "1u": " "}},
+        "categories": ["blanks"]
+      },
+      {
+        "code": 65535,
+        "label": {"base": {"full": "Transparent", "1u": " "}},
+        "categories": ["blanks"]
+      },
+      {"code": 95, "label": {"base": "7"}, "location": "numpad"},
+      {"code": 96, "label": {"base": "8"}, "location": "numpad"},
+      {"code": 97, "label": {"base": "9"}, "location": "numpad"},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -311,6 +326,21 @@
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
+      {"code": 86, "label": {"base": "-"}, "location": "numpad"},
+      {
+        "code": 65535,
+        "label": {"base": {"full": "Transparent", "1u": " "}},
+        "categories": ["blanks"]
+      },
+      {
+        "code": 88,
+        "label": {"base": {"full": "Enter", "1u": "Ent"}},
+        "location": "numpad"
+      },
+      {"code": 92, "label": {"base": "4"}, "location": "numpad"},
+      {"code": 93, "label": {"base": "5"}, "location": "numpad"},
+      {"code": 94, "label": {"base": "6"}, "location": "numpad"},
+      {"code": 99, "label": {"base": "."}, "location": "numpad"},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -356,106 +386,16 @@
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
+      {"code": 87, "label": {"base": "+"}, "location": "numpad"},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
+      {"code": 98, "label": {"base": "0"}, "location": "numpad"},
+      {"code": 89, "label": {"base": "1"}, "location": "numpad"},
+      {"code": 90, "label": {"base": "2"}, "location": "numpad"},
+      {"code": 91, "label": {"base": "3"}, "location": "numpad"},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -1455,11 +1395,11 @@
       {"code": 9, "label": {"base": "f", "shifted": "F"}},
       {"code": 10, "label": {"base": "g", "shifted": "G"}},
       {
-        "code": 17492,
-        "label": {"hint": "MoveTo", "base": "#0"},
-        "target": 0,
-        "rangeStart": 17492,
-        "categories": ["layer", "movetolayer"]
+        "code": 17409,
+        "label": {"hint": "LockTo", "base": "#1"},
+        "target": 1,
+        "rangeStart": 17408,
+        "categories": ["layer", "locktolayer"]
       },
       {
         "code": 227,
@@ -2203,7 +2143,7 @@
       15,
       15,
       15,
-      4,
+      5,
       15,
       15,
       0,
@@ -2278,31 +2218,31 @@
       15,
       15,
       15,
+      5,
+      5,
+      5,
+      5,
       15,
       15,
       15,
+      5,
+      5,
       15,
       15,
       15,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
       15,
       15,
+      5,
+      5,
+      5,
       15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
+      5,
       15,
       15,
       15,
@@ -2366,7 +2306,7 @@
       15,
       1,
       1,
-      15,
+      1,
       15,
       1,
       1,
@@ -2533,7 +2473,7 @@
       15,
       15,
       15,
-      0,
+      5,
       15,
       15,
       4,
@@ -2713,7 +2653,7 @@
     {"r": 208, "g": 8, "b": 138, "rgb": "rgb(208, 8, 138)"},
     {"r": 239, "g": 202, "b": 28, "rgb": "rgb(239, 202, 28)"},
     {"r": 4, "g": 68, "b": 174, "rgb": "rgb(4, 68, 174)"},
-    {"r": 0, "g": 0, "b": 0, "rgb": "rgb(0, 0, 0)"},
+    {"r": 255, "g": 0, "b": 0, "rgb": "rgb(255, 0, 0)"},
     {"r": 0, "g": 0, "b": 0, "rgb": "rgb(0, 0, 0)"},
     {"r": 0, "g": 0, "b": 0, "rgb": "rgb(0, 0, 0)"},
     {"r": 0, "g": 0, "b": 0, "rgb": "rgb(0, 0, 0)"},
